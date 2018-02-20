@@ -1,0 +1,82 @@
+body, #corner_container{background-color:#222;}
+#corner_container {margin:0 auto;
+	max-width: 370px;
+	overflow: hidden;
+	color: #666;
+	font-family: Arial;
+	font-size: 1em;
+}
+/*paragraph style for executive corner of sufrboard homepage*/
+
+#corner_container div {
+  border-radius:5px;
+	display: block;
+	max-width: 370px;
+	background-color: #fdefcc;
+}
+#corner_container p {
+	background-color: #fff;
+	padding: 4px;
+}
+
+div #promos {
+	background-color: #fff;
+}
+#promos div {
+	margin: 10px 0;
+	border: 1px solid #cce9f1;
+}
+#promos div, #promos p {
+	padding: 8px;
+}
+
+#promos p {
+	border: 1px dotted #0092ba;
+}
+
+#promos .trivia {
+	height: auto;
+}
+
+.trivia h3{margin:5px;}
+.trivia h5{margin:10px 20px;}
+
+#promos .trivia #content_container {
+	overflow: hidden;
+	position: relative;
+	height: 70px;
+	padding: 2px;
+	width: 350px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#promos .trivia #content_container div {
+	position: absolute;
+	border: 0;
+	background-color: #fff;
+	margin: 0 auto;
+}
+#item_count{font-weight:bold;font-size:0.8em;color:#aaa;}
+button {
+	font-size: 0.9em;font-weight:bold;
+	margin-top: 5px;
+	margin-left:10px;
+	padding: 0px 8px;
+	border: 0px solid #0c7396;
+	border-radius: 10px;
+	background-color:#fdefcc;
+	color: #09c;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+button:hover, button:focus {
+	background: #0d86ae;
+	cursor:pointer;color:#fff;
+}
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+a{color:#0af;text-decoration:none;}
+a:hover{color:#fa0;}

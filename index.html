@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechnoBots</title>
+<!--css-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/swipebox.css" type="text/css" media="all" />
+<!--css-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Music Max  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!--js-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--js-->
+<!--webfonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Muli" rel="stylesheet">
+<!--webfonts-->
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <!--Include jQuery & Filterizr-->
+	<script src="js/jquery.filterizr.js"></script>
+	<script src="js/controls.js"></script>
+		<!--Kick off Filterizr-->
+			<script type="text/javascript">
+				$(function() {
+					//Initialize filterizr with default options
+				$('.filtr-container').filterizr();
+			});
+		</script>
+<!--gallery-->
+<!--startsmothscrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+	<script src="js/jquery.swipebox.min.js"></script> 
+	<script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!--swipe box js-->
+</head>
+<body>
+	<!--header-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="header-bottom">
+				<div class=" logo ">
+					<h1><a href="index.html">TechnoBots</a></h1>
+				</div>
+				<div class=" top-nav">
+					<span class="menu"><img src="images/nav.png" alt=""/></span>
+					<ul class="nav1">
+						<li><a href="index.html" class="active scroll">Home</a></li>
+						<li><a href="#about" class="scroll">About</a></li>
+						<!-- <li><a href="#albums" class="scroll">Albums </a></li> -->
+						<li><a href="#biography" class="scroll">Events</a></li>
+						<li><a href="#artists" class="scroll">Our Team</a></li>
+						<li><a href="#contact" class="scroll">Contact</a></li>
+					</ul>	
+					<!--script-for-menu-->
+					 <script>
+					   $( "span.menu" ).click(function() {
+						 $( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						  });
+						 });
+					</script>
+					<!--script-for-menu-->
+				</div>
+				<div class="clearfix"></div>	
+			</div>	
+		</div>
+	</div>
+	<!--header-->
+	<!--banner-->
+		<div class="banner-section">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="slider-info">
+								<img src="images/ba1.jpg" class="img-responsive" alt="">
+							</div>
+							<div class="container">
+								<div class="banner-text">
+									<h3>Reverse Coding</h3>
+									<p>Reverse Coding is an event which tests logical thinking and basic programming skills.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slider-info">
+								<img src="images/pcbots-hacker.jpg" class="img-responsive" alt="">
+							</div>
+							<div class="container">
+								<div class="banner-text">
+									<h3>Capture The Flag</h3>
+									<p>This is an ethical
+hacking contest in which certain pieces of information called flags are hidden on servers, stored somewhere difficult to access. </p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slider-info">
+								<img src="images/ba3.jpg" class="img-responsive" alt="">
+							</div>
+							<div class="container">
+								<div class="banner-text">
+									<h3>Elektra-2.0</h3>
+									<p>Test your Programming Skills alongwith your Focus and presence of mind.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slider-info">
+								<img src="images/fcws1.jpg" class="img-responsive" alt="">
+							</div>
+							<div class="container">
+								<div class="banner-text">
+									<h3>FCWS</h3>
+									<p>In contrast to normal programming competition, in FCWS for every 30
+minutes the top 3 standings in the leaderboard are given a special
+question and they must solve it within 15 minutes.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slider-info">
+								<img src="images/ba5.png" class="img-responsive" alt="">
+							</div>
+							<div class="container">
+								<div class="banner-text">
+									<h3>Mimeograph</h3>
+									<p>A Web Development Event where you have to copy the given Webpage.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+				<!--FlexSlider-->
+				<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+						$(function(){
+							SyntaxHighlighter.all();
+						});
+						$(window).load(function(){
+						$('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+						});
+						});
+					</script>
+				<!--FlexSlider-->
+				<!--slider-->
+		</div>
+	<!--banner-->
+		<!--welcome-->
+			<div class="content">
+				<div class="welcome-w3ls" id ="about">
+					<div class="container">
+						<h2 class="tittle"> TechnoBots</h2>
+							<div class="border"></div>
+						<span>TechnoBots, the 1st Intra College Technical Fest of IIIT SriCity. 24th - 25th Feb 2018 are meant to be two days of continuous fun and frolic.It’s the best time to take a break, relax and participate in the various activities that TechnoBots has in store for us. </span>
+					</div>
+					<div class="wel-grids">
+						<div class="col-md-3 wel-grid">
+							<img src="images/v1.jpg" title="Designer_girl" class="img-responsive" alt=""/>
+						</div>
+						<div class="col-md-6 wel-grid1">
+							<div class="wel-left">
+								<h4>5</h4>
+								<h5>Events</h5>
+								<p>The events are challenges from the house of Programming Club, IIITS.</p>
+							</div>
+							<div class="wel-left">
+								<h4>2</h4>
+								<h5>Days</h5>
+								<p>At TechnoBots, we can assure you, that you will have the time of your lives in these two days.</p>
+							</div>
+							<div class="wel-left">
+								<h4>15+</h4>
+								<h5>Prizes</h5>
+								<p>Chance to win goodies worth 15K. Register, Participate and Win. </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-3 wel-grid">
+							<img src="images/v2.jpg" title="Designer_girl" class="img-responsive" alt=""/>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			<!--welcome-->
+				
+				
+				<!--Biography-->
+					<div class="biography-w3agile" id="biography">
+						<h3 class="tittle1">Events</h3>
+						<div class="container">
+							<!-- <div class="border1"></div> -->
+							<div class="biography-grids">
+								<div class="col-md-6 biography-grid">
+								<img src="images/CTF.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="col-md-6 biography-grid">
+									<h4>Capture the Flag</h4>
+									<p>A Jeopardy style 3-Hr contest in which hackers are ranked based on their scores and
+the total time consumed. Each participant will be provided with a set of challenges which can
+be downloaded. The participant must find the key/solution by exploiting a vulnerability. The
+key could be a random text like “flag{congr4tz_y0u_found_1t}” or in a specific format
+provided during the event. Cheers!!! You are free to use internet.</p>
+<li><b>Date: 24-02-2018</b></li>
+<li><b>Time:2pm-4pm</b></li> 
+									
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="border1"></div>
+							<div class="biography-grids">
+								<div class="col-md-6 biography-grid" style="float: right">
+								<img src="images/reverse.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="col-md-6 biography-grid">
+									<h4>Reverse Coding</h4>
+									<p>Reverse Coding is an event which tests logical thinking and basic programming skills. The idea behind this event is to figure out the "Black Box". In other words the participants are given an executable program and are asked to do reverse coding, that is to develop the source code. The event will test your basic logic skills along with pattern analysis and recognition as you play with the code, identify the patterns and decipher it.</p>
+									
+										<li><b>Date: 24-02-2018</b></li>
+										<li><b>Time:8:30 am-11:00 am</b></li> 
+									
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="border1"></div>
+							<div class="biography-grids">
+								<div class="col-md-6 biography-grid">
+								<img src="images/fcws.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="col-md-6 biography-grid">
+									<h4>First Come Well Served</h4>
+									<p>In contrast to normal programming competition, in FCWS for every 30 minutes the top 3 standings in the leaderboard are given a special question and they must solve it within 15 minutes. If they do so, they will get that question score as bonus, otherwise they will get a penalty of half of the marks of that special question.</p>
+<li><b>Date: 24-02-2018</b></li>
+<li><b>Time:4:30 pm - 7:00pm</b></li> 
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="border1"></div>
+							<div class="biography-grids">
+								<div class="col-md-6 biography-grid" style="float: right">
+								<img src="images/coding.png" class="img-responsive" alt=""/>
+								</div>
+								<div class="col-md-6 biography-grid">
+									<h4>Elektra-2.0</h4>
+									<p>Elekta-2.0 calls on programmers to put their skills to the test by solving multiple rounds of algorithmic puzzles. In addition to being challenging and fun, Elekta-2.0 problems can help you develop your coding and programming skills. </p>
+									<li><b>Date: 25-02-2018</b></li>
+<li><b>Time:2pm-7pm</b></li> 
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="border1"></div>
+							<div class="biography-grids">
+								<div class="col-md-6 biography-grid">
+								<img src="images/web.png" class="img-responsive" alt=""/>
+								</div>
+								<div class="col-md-6 biography-grid">
+									<h4>Mimeograph</h4>
+									<p>A Web Development contest where you are given a web page. Contestants have to copy that page. They will judged on the functionalities of their page. The page with most common functionalities wins.</p>
+									<li><b>Date: 24-02-2018</b></li>
+<li><b>Time:11:30 am- 1:00 pm</b></li> 
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+					</div>
+					<div class="album-agile" id="albums">
+					<div class="container">
+						<div class="filtr-container">
+							<div class="col-md-4 filtr-item" data-category="3" data-sort="Dreamhouse">
+							</div>
+							<div class="clearfix"> </div>
+
+						</div>
+					</div>
+				</div>
+				<!--Biography-->
+				<div class="artists-agileits" id="artists">
+					<div class="container">
+					<h3 class="tittle">Our Team</h3>
+					<div class="border"></div>
+						<div class="slider">
+							<div class="callbacks_container">
+								<ul class="rslides" id="slider">
+									<li>	 
+										<div class="caption">
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal3"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Krishna Kumar Dey</h4>
+											</div>
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal1"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Arshad G.</h4>
+											</div>
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal2"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Shubhadeep Dash</h4>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+									 <li>	 
+										<div class="caption">
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal4"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Syed Jahangir</h4>
+											</div>
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal5"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Siddhant Kushwaha</h4>
+											</div>
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal3"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Subhash Karthik</h4>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+									<li>
+										<div class="caption">
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal1"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Anubhav Ujjwal</h4>
+											</div>
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal3"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>TejKiran V.</h4>
+											</div>
+											<div class="col-md-4 cap-left">
+												<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal5"><img src="images/profile.jpg" class="img-responsive" alt=""/></a>
+												<h4>Anirudh Kannan</h4>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="contact" class="contact">
+				<div class="container">
+					<h3 class="tittle">Contact</h3>
+					<div class="border"></div>
+				</div>
+				<div class="map">
+					<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIYcPHj93TToR5Bkn_C-EsK0&key=AIzaSyC8fTw48oocvM5cSuSIVx0DlBrjus20-qo" allowfullscreen></iframe> 
+				</div>
+			</div>
+<!-- //get-in -->
+<!-- contact-us -->
+			<div class="contact-us">
+				<div class="container">
+					<div class="contact-grids">
+						<div class="col-md-4 contact-grid text-center">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+							<p><a href="mailto:programming@iiits.in">Email : programming@iiits.in</a></p>
+						</div>
+						<div class="col-md-4 contact-grid text-center">
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+							<p>Indian Institute Of Information Technology, Sri City</p>
+						</div>
+						<div class="col-md-4 contact-grid text-center">
+							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+							<p>Telephone : +917997003581</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+
+		<!--footer-->
+			<div class="copy-section">
+				<div class="container">
+					<div class="footer-top">
+						<p>&copy; 2018 Programming Club. All rights reserved | Design by <a href="mailto:krishnakumar.d16@iiits.in">ayed</a></p>
+					</div>
+					<a href="#home" class="scroll top"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a>
+				</div>
+			</div>
+	<!--footer-->
+</body>
+</html>
